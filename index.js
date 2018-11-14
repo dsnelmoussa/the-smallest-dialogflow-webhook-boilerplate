@@ -26,12 +26,6 @@ app.post('/', (req, res) => {
 
   res.json(response);
 })
-
-:q
-
-
-
-
 app.get('/health', (req, res) => {
   res.send('WE MAKE IT')
 });
