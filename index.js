@@ -27,8 +27,13 @@ app.post('/', (req, res) => {
   res.json(response);
 })
 
+:q
+
+
+
+
 app.get('/health', (req, res) => {
-  res.send('ok')
+  res.send('WE MAKE IT')
 });
 
 let port = process.env.PORT;
@@ -37,3 +42,5 @@ if (port == null || port == "") {
 }
 app.listen(port)
 console.log('info', `server listening on port ${port}`)
+
+
